@@ -10,7 +10,7 @@ const Projects = () => {
   description:
     'Vision Mission is a collaborative platform designed to help students turn their ideas into action.',
   tech: ['Dart', 'Firebase', 'Flutter', 'REST API'],
-  image: 'src/visionmission.png', // Local image
+  image: '/visionmission.png', // Local image
   github: '#',
   live: '#',
 },
@@ -19,7 +19,7 @@ const Projects = () => {
   description:
     'SeniorWell is a digital wellness platform dedicated to enhancing the health, safety, and independence of senior citizens.',
   tech: ['Flutter', 'Dart', 'Firebase', 'REST API'],
-  image: 'src/seniorwell.png', // Local image
+  image: '/seniorwell.png', // Local image
   github: '#',
   live: 'https://www.linkedin.com/feed/update/urn:li:activity:7333383798329409538/',
 },
@@ -28,7 +28,7 @@ const Projects = () => {
   description:
     'SyscoCheck is a smart compatibility and recommendation tool that analyzes your system specs to suggest the best software and hardware configurations.',
   tech: ['python', 'Html'],
-  image: 'src/sysco.jpg', // Local image
+  image: '/sysco.jpg', // Local image
   github: 'https://github.com/nadish349/syscocheck',
   live: 'https://nadish349.github.io/syscocheck/',
 }
