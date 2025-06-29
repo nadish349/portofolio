@@ -16,17 +16,11 @@ const Hero = () => {
               Web Developer
             </h1>
             <img
-<<<<<<< HEAD
-  src="/nadish.png"
-  alt="Profile"
-  className="w-24 h-24 md:w-32 md:h-32 rounded-full border-4 border-white shadow-lg object-cover"
+             src="/nadish.png"
+             alt="Profile"
+            className="w-24 h-24 md:w-32 md:h-32 rounded-full border-4 border-white shadow-lg object-cover"
+
 />
-=======
-              src="/nadish.png"  // Ensure the image is in /public/assets/ or /src/assets/ and adjust path if needed
-              alt="Profile"
-              className="w-24 h-24 md:w-32 md:h-32 rounded-full border-4 border-white shadow-lg object-cover"
-            />
->>>>>>> 36e1c1da1efbcea90ba035126dd1ca4545c59734
           </div>
 
           <h2 className="text-2xl md:text-3xl text-gray-300 mb-4 font-light">
