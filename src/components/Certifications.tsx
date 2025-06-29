@@ -13,40 +13,39 @@ const Certifications = () => {
       date: '2024',
       description: 'Certified in developing Python environments',
       color: 'from-orange-500 to-yellow-500',
-      image: 'src/c6.png'
+      image: '/c6.png'
     },
     {
       title: 'MINI MBA IN ENTREPRENEURSHIP UDEMY',
       issuer: 'Udemy',
       date: '2024',
-      description: 'Advanced Knowledge about running  entrepreneurship',
+      description: 'Advanced Knowledge about running entrepreneurship',
       color: 'from-blue-500 to-cyan-500',
-      image: 'src/c5.png'
+      image: '/c5.png'
     },
     {
       title: 'CYBERSECURITY WITH CLOUD COMPUTING',
       issuer: 'Linkedin Learning',
       date: '2024',
-      description: 'Complete cybersecurity with cloud computinig certification covering modern technologies',
+      description: 'Complete cybersecurity with cloud computing certification covering modern technologies',
       color: 'from-green-500 to-emerald-500',
-      image: 'src/c3.png'
+      image: '/c3.png'
     },
-    
     {
       title: 'CRYPTOGRAPHY WITH PYTHON',
       issuer: 'Infosys',
       date: '2024',
-      description: 'cryptography with python certification covering modern technologies',
+      description: 'Cryptography with Python certification covering modern technologies',
       color: 'from-green-600 to-green-400',
-      image: 'src/c2.png'
+      image: '/c2.png'
     },
     {
       title: 'CARRIER ESSENTIALS IN GENERATIVE AI',
       issuer: 'Microsoft',
       date: '2024',
-      description: 'career essentials in generative AI certification covering modern technologies',
+      description: 'Career essentials in generative AI certification covering modern technologies',
       color: 'from-green-600 to-green-400',
-      image: 'src/c1.png'
+      image: '/c1.png'
     }
   ];
 
@@ -54,7 +53,6 @@ const Certifications = () => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % certifications.length);
     }, 3000);
-
     return () => clearInterval(interval);
   }, []);
 
@@ -105,14 +103,12 @@ const Certifications = () => {
                     <p className="text-gray-400 mb-4">{cert.date}</p>
                     <p className="text-gray-300 max-w-md">{cert.description}</p>
 
-                    {cert.image && (
-                      <button
-                        onClick={() => openModal(cert)}
-                        className="mt-4 text-sm text-blue-400 hover:underline"
-                      >
-                        View Certificate
-                      </button>
-                    )}
+                    <button
+                      onClick={() => openModal(cert)}
+                      className="mt-4 text-sm text-blue-400 hover:underline"
+                    >
+                      View Certificate
+                    </button>
                   </div>
                 </div>
               </div>
